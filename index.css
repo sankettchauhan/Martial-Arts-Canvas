@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 700px;
+  background: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2 1;
+}
+.myCanvas {
+  height: 500px;
+  margin-top: 50px;
+}
+button {
+  padding: 0.75em;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0.5em;
+  border-radius: 10px;
+  border: none;
+  color: #555;
+}
+button:hover {
+  color: #000;
+  transition: 300ms;
+  background-color: #ccc;
+  cursor: pointer;
+}
